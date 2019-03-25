@@ -2,8 +2,10 @@ body {
    font-family: Arial, Helvetica, sans-serif;
    font-size:  medium;
    color: black:
-   margin:  Opx;
-   }
+   margin:  auto;
+   width:760px;
+   max-width: 760;
+}
 a:link {
 color:blue;
 text-decorations: underline:
@@ -22,4 +24,10 @@ font-size: small;
 text-align: center:
 clear:both;
 }
- 
+.left {
+   float: left;
+   width: 70%;
+}
+.right {
+     margin-left: 70%;
+}
